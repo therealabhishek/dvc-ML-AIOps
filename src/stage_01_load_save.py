@@ -4,6 +4,11 @@ import pandas as pd
 import os
 
 def get_data(config_path):
+  """[summary]
+
+  Args:
+      config_path ([type]): [description]
+  """
 
   # read data:
   config = read_yaml(config_path)
